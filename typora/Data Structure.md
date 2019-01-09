@@ -60,13 +60,65 @@
 
 * `import copy` + `copied_list = copy.deepcopy(list)` : list를 복사한 copied_list를 출력
 
+
+
 ### 03. Dictionary 메소드
+
+#### 03-(1) 추가 및 삭제
+
+- `dict.pop(key)` : 기존 dict에서 key에 해당하는 item을 없애고 key에 해당하는 value 값을 반환 (**원본 파괴**)
+
+  **단** `dict.pop(key,False)` 기존 dict에 입력한 key가 없을 때는 False를 반환 (False는 대체 가능)
+
+- `dict.update(key= new value)`: 기존 dict에서 key에 해당하는 value값을 new value값으로 대체 ( **원본 파괴/출력 None**)
+
+- `dict.get(key)` : dict에서 key값에 해당하는 value 값을 반환
+
+  **단** `dict.get(key not in dict)` : 기존 dict에 없는 key값을 입력할 경우 None을 반환
+
+  **또한** `dict.get(key, False)` : 기존 dict에 없는 key값을 입력할 경우 False를 반환 (False는 대체 가능)
+
+
 
 ### 04. Set 메소드
 
+#### 04-(1) 추가 및 삭제
+
+* `set.add(element)` : 기존의 set에 새로운 element를 추가 ( **원본파괴 / 출력None** )
+* `set.update(*others)` : 기존의 set에 iterable한 others(여러가지 값)을 추가 ( **원본파괴/출력None** )
+* `set.remove(element)` : 기존의 set에서 element를 삭제 ( **원본파괴/출력None/없으면 Error** )
+* `set.discard(element)` : 기존의 set에서 element를 삭제 ( **원본파괴/출력None** )
+* `set.pop()` : 기존의 set에서 가장 작은 원소를 제거하고 반환 ( **원본파괴/출력yes **)
+
+
+
 ### 05. List Comprehension
 
+#### 05-(1) 간편하게 List 만들기
+
+* `list = [x for x in X (조건)]` : x안에 있는 x들로 새로운 list를 생성 ( 조건이 있을 시에는 뒤에 추가)
+
+  `list = [(x, y) for x in X for y in Y (조건) ]` : 변수가 2개 이상일 때도 사용 가능
+
+
+
 ### 06. Dictionary Comprehension
+
+#### 06-(1) 간편하게 Dict 만들기
+
+* `dict = { key: value for key, value in dict.items() (조건)}` :  기존의 dict에 있는 key와 value로 새로운 dict을 생성
+
+  `dict = { a: b for a in A for b in B (조건)}` : 리스트 A와 B에 있는 요소를 각각 key와 value로 지정하여 새로운 dict 생성
+
+### 07. Map 함수
+
+#### 07-(1) Map
+
+* `map(function, iterable)` : iterable한 원소에 function을 적용한 후 그 결과를 map object 형태로 반환
+
+  따라서 map()의 결과에 list() 함수를 적용하면 list로 반환 `ex. list(map(int, strings))`
+
+
 
 
 
