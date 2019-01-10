@@ -9,7 +9,7 @@
 * `a.upper()` : 문자열 모두를 대문자로 만들어 반환
 * `a.lower()` : 문자열을 모두 소문자로 만들어 반환
 * `a.swapcase()` : 대문자는  소문자로, 소문자는 대문자로 반환
-* `'a'.join(x)` : iterable한 요소 x 사이사이에 a를 넣어 문자열로 반환
+* `'x'.join(a)` : iterable한 요소 a (ex.string) 사이사이에 x를 넣어 문자열로 반환
 * `a.replace(old, new)` : 영역 안에 있는 old를 new로 바꿔서 반환
 * `a.strip(x)` : a에서 b를 제거하여 반환. 단 b를 지정하지 않을 시에는 공백을 제거
 
@@ -110,9 +110,18 @@
 
   `dict = { a: b for a in A for b in B (조건)}` : 리스트 A와 B에 있는 요소를 각각 key와 value로 지정하여 새로운 dict 생성
 
+
+
 ### 07. Map 함수
 
-#### 07-(1) Map
+#### 07-(1) 개요
+
+* `def func(parameter1, parameter2): + return` : 함수의 기본 형태
+
+* 함수는 동작 후 returnd을 통해 결과값을 전달하는데 return이 없으면 None을 반환
+
+
+#### 07-(*) Map
 
 * `map(function, iterable)` : iterable한 원소에 function을 적용한 후 그 결과를 map object 형태로 반환
 
