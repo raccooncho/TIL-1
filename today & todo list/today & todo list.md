@@ -10,6 +10,8 @@ Arrange Function
 
 data structure에 있는 map함수 function으로 옮기기
 
+문자열 슬라이싱 알아보고 data structure에 추가하기
+
 Arrange 03_Function 뒷부분 마무리
 
 Arrange 04_recursive_function
@@ -19,3 +21,4 @@ Arrange 04_recursive_function
 codecademy
 
 포켓몬 게임 만들기
+
