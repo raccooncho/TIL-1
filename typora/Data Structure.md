@@ -19,7 +19,13 @@
 
 * `a.find(x)` : a에 있는 x 중 첫번째 x의 인덱스를 반환하며 x가 없을 시에는 -1을 반환
 * `a.index(x)` : a에 있는 x 중 첫번째 x의 인덱스를 반환하지만 x가 없을 시에는 error
-* `a.split(x)` : x를 기준으로 a 문자열을 나누어 **리스트**로 반환
+* `a.split(x)` : x를 기준으로 문자열a를 나누어 **리스트**로 반환
+
+
+
+#### 01-(3) 인덱싱 및 슬라이싱
+
+* `a[n:m]` : 문자열 a 중 인덱스 n부터 인덱스m 전까지만 뽑아서 새로운 문자열로 반환 
 
 
 
@@ -96,7 +102,9 @@
 
 #### 05-(1) 간편하게 List 만들기
 
-* `list = [x for x in X (조건)]` : x안에 있는 x들로 새로운 list를 생성 ( 조건이 있을 시에는 뒤에 추가)
+* `list = [x for x in X (조건)]` : x안에 있는 x들로 새로운 list를 생성 ( 조건이 있을 시에는 뒤에 추가) 
+
+  **x 대신 x.method 또는 function(x)를 넣어도 가능!!!**
 
   `list = [(x, y) for x in X for y in Y (조건) ]` : 변수가 2개 이상일 때도 사용 가능
 
@@ -111,21 +119,6 @@
   `dict = { a: b for a in A for b in B (조건)}` : 리스트 A와 B에 있는 요소를 각각 key와 value로 지정하여 새로운 dict 생성
 
 
-
-### 07. Map 함수
-
-#### 07-(1) 개요
-
-* `def func(parameter1, parameter2): + return` : 함수의 기본 형태
-
-* 함수는 동작 후 returnd을 통해 결과값을 전달하는데 return이 없으면 None을 반환
-
-
-#### 07-(*) Map
-
-* `map(function, iterable)` : iterable한 원소에 function을 적용한 후 그 결과를 map object 형태로 반환
-
-  따라서 map()의 결과에 list() 함수를 적용하면 list로 반환 `ex. list(map(int, strings))`
 
 
 
