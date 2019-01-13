@@ -74,11 +74,10 @@ while user.level < 10:
             print(f'{e1.name} : {e1.hp}')
             print()
         else: #critical attack
-            if user.sp > 0:
-                user.critical_attack(e1) 
+            user.critical_attack(e1) 
+            if user.sp > 0:                
                 print(f'you attack the {e1.name} and it got a {user.power * 1.5} damege')
-            else:
-                user.basic_attack(e1)
+            else:                
                 print(f'you attack the {e1.name} and it got a {user.power} damege')
             print(f'{user.name} : {user.hp}')
             print(f'{e1.name} : {e1.hp}')
@@ -100,8 +99,4 @@ while user.level < 10:
     e1.hp = e1.level * 100
     user.sp = 3
 
-print('The end')
-
-
-
-
+# enemy_2 coming soon
