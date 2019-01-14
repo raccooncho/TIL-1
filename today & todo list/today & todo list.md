@@ -1,8 +1,12 @@
 # TODO
 
+9homework 로그인용 html 코드 만들기
+
 코딩도장
 
 codecademy
+
+* html, css
 
 codewars
 
@@ -15,6 +19,10 @@ codewars
 # 20190115
 
 # 20190114
+
+Arrange for test
+
+Make file for HTML and CSS
 
 # 20190113
 
