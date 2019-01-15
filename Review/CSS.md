@@ -1,5 +1,26 @@
 # CSS (cascading style sheet)
 
+## 01. HTML과 CSS 연결하기
+
+HTML에서 `<head></head> ` 태그 안에 `<link>` 태그를 추가한다. 태그의 속성은 다음과 같다
+
+`<link href="CSS파일 위치" type="text/css" rel="stylesheet"`
+
+* `rel`은 relationship을 의미
+
+
+
+## 02. CSS selector
+
+selector의 경우 HTML의 어느부분에 style을 적용할지 정해주는 것
+
+* `<p></p>` 태그의 경우 `p {}`을 통해 적용
+* `<h2></h2>` 태그의 경우 `h2 {}` 을 통해 적용
+* class의 경우 `.class이름` 을 통해 적용
+* id의 경우 `#id이름` 을 통해 적용
+
+
+
 ## Naming Things (class & id)
 
 * 기능을 의미하는 것으로 이름을 잘 지어야 한다
@@ -21,8 +42,5 @@
 
 ## Basic Function
 
-* `<link rel="stylesheet" type="text/css" href="위치"> `  :  css파일을 html에 연결시키기 
-* `#id명` : id를 부르는 방법
-* `.class명` : class를 부르는 방법
 * `.class명 태그명` : 특정 tag안에 있는 class를 부르는 방법 
 

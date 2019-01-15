@@ -18,6 +18,8 @@ codewars
 
 # 20190115
 
+Add CSS
+
 Do 10homework & 10workshop
 
 Arrange for test
