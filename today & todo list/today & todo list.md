@@ -1,7 +1,5 @@
 # TODO
 
-9homework 로그인용 html 코드 만들기
-
 코딩도장
 
 codecademy
@@ -14,9 +12,15 @@ codewars
 
 * 다 싸우고 나서 누가 이겼는지 알려주는 문제 해결
 
+에밋 치팅시트 확인
+
 # 20190116
 
 # 20190115
+
+Arrange for test
+
+Add lambda to 03_Fuction
 
 # 20190114
 
