@@ -18,6 +18,8 @@ codewars
 
 # 20190115
 
+Do 10homework & 10workshop
+
 Arrange for test
 
 Add lambda to 03_Fuction
