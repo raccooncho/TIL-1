@@ -46,11 +46,13 @@ li*3 후에 tab(또는 enter)을 누르면 3개가 만들어짐
 * `<form>과 </form>` 사이에 `input type=""~` 를 넣으면 거기서 얻는 정보가 `value="입력한 문자"`로 바뀌고  `"id=입력한문자" `가 `정보를 받을 곳.html`에 보내진다
 * `<label>표시할텍스트</label>` 를 통해 입력창에 위에 텍스트를 보여줄 수 있다
 * `<label for="input의 id">표시할텍스트</label>` 을 이용해 라벨이 어느 것을 설명하기 위한 것인지 표시 할 수 있다
-* `<input type="passward" id="user-password nama="user-password>` 을 이용하면 비밀번호 입력창 같이 *** 로 채울 수 있다
+* `<input type="passward" id="user-password name="user-password>` 을 이용하면 비밀번호 입력창 같이 *** 로 채울 수 있다
 * `<input type="number">` 로 하면 숫자만 입력이 가능하다
 * `<textarea></textarea>` 로 하면 텍스트 입력창의 크기를 조절할 수 있다
 * `<input type="date">` 를 사용할 경우 달력을 가져올 수 있다
-* 
+* `<input type="number" required>` 를 통해 반드시 입력하게 만들 수 있다
+* `min=""`과 `max=""` 을 이용해 `input`의 최대값과 최소값을 정할 수 있다
+* `minlength=""`와 `maxlength=""`을 통해서 문장의 길이를 제한할 수 있다
 
 
 

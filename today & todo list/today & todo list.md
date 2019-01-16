@@ -8,13 +8,23 @@ codecademy
 
 codewars
 
+sw expert academy
+
 포켓몬 게임 만들기
 
 * 다 싸우고 나서 누가 이겼는지 알려주는 문제 해결
 
 에밋 치팅시트 확인
 
+08_Module 정리
+
+09_Error & Exception
+
 # 20190116
+
+01_python slicing
+
+Arrange OOP & Module
 
 # 20190115
 
