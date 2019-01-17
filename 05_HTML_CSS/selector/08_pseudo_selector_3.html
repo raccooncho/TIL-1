@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    /* 가상 요소 셀렉터 pseudo element selector */
+        /* p 의 첫글자 */
+        p::first-letter { font-size: 3em; }
+        /* p 의 첫줄 */
+        p::first-line { color: indianred; }
+        /* h1 요소의 앞에 */
+        h1::before {
+            content: " HTML5!!! ";
+            color : lightblue;
+        }
+        /* h1 요소의 뒤에 */
+        h1::after {
+            content: "!!CSS3";
+            color: lightsalmon;
+        }
+        /* 드레그할 때 선택되는 부분 */
+        ::selection {
+            color:maroon;
+            background: palegoldenrod;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is heading</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</body>
+</html>

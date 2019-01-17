@@ -10,6 +10,8 @@ codewars
 
 sw expert academy
 
+* 홀수 더하기 문제 해결하기
+
 포켓몬 게임 만들기
 
 * 다 싸우고 나서 누가 이겼는지 알려주는 문제 해결
@@ -18,7 +20,13 @@ sw expert academy
 
 08_Module 정리
 
-09_Error & Exception
+09_Error & Exception 정리
+
+# 20190117
+
+Do HTML & CSS
+
+Add files to 05_HTML_CSS
 
 # 20190116
 
