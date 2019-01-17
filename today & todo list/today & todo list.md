@@ -24,6 +24,8 @@ sw expert academy
 
 # 20190117
 
+Crawling lotto & naver weather 
+
 Add file : Treat Data
 
 Do HTML & CSS
