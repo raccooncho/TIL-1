@@ -83,7 +83,7 @@ from bs4 import BeautifulSoup
 
 url = 'url address'
 
-response = requests.get(url).txt #url에서 request를 통해 html을 가져온다
+response = requests.get(url).text #url에서 request를 통해 html소스를 가져온다
 soup = BeautifulSoup(response, 'html.parser') #이러한 html을 파싱한다
 
 data_set = soup.select('.value') #셀렉터를 이용하여 필요한 정보를 얻어낸다
