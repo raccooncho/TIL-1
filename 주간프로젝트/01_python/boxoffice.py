@@ -4,9 +4,9 @@ import csv
 
 movie_dict = []
 
-start_date = datetime.datetime(2018,11,11)
+start_date = datetime.datetime(2019,1,13)
 for i in range(10):
-    t = start_date + datetime.timedelta(days=7 * i)
+    t = start_date - datetime.timedelta(days=7 * i)
     target = t.strftime('%Y%m%d')
     
     key = 'e12be2ef03b4294b6b4ca0657423cbc6'
@@ -40,12 +40,12 @@ for i in range(10):
 a = len(movie_dict) / 4
 
 for i in range(int(a)):    
-    a = movie_dict[4 * i: 4 * (i + 1)]
+    b = movie_dict[4 * i: 4 * (i + 1)]
     f = open('boxoffice.csv', 'a+', encoding='utf-8', newline='')
     writer = csv.writer(f)
 
     writer.writerow(
-        a
+        b
     )
 
     f.close
