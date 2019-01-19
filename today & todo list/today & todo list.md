@@ -22,6 +22,14 @@ sw expert academy
 
 09_Error & Exception 정리
 
+# 20190119
+
+Project kobis & naver url crawling
+
+# 20190118
+
+Project kobis url crawling
+
 # 20190117
 
 Crawling lotto & naver weather 
