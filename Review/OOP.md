@@ -31,7 +31,7 @@
 * `class Sub_Class(Super_Class)` 을 통해 상속할 수 있다
 * 자식 클래스는 부모 클래스의 속성(attribute)과 메서드(method)를 물려받는다
 * `super()` 를 이용하면 부모 클래스의 메소드도 받아올 수 있다
-  * ex. init을 오버라이딩하기 `super()__init__(self, superclass의 init) + 자식 class의 추가적인 init`
+  * ex. init을 오버라이딩하기 `super().__init__(self, superclass의 init) + 자식 class의 추가적인 init`
 * 다중상속 (Child가 Dad와 Mom에게 동시에 상속받기)도 가능하다. 단 중복되는 상속값이 있다면 우선 적은 클래스에게 상속받는다
 
 
