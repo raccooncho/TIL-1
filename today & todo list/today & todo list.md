@@ -16,13 +16,25 @@ sw expert academy
 
 * 다 싸우고 나서 누가 이겼는지 알려주는 문제 해결
 
-에밋 치팅시트 확인
+CSS에서 에밋 치팅시트 확인
 
 08_Module 정리
 
 09_Error & Exception 정리
 
+SQL 정리하기
 
+주간프로젝트 html대비 https://poiemaweb.com/
+
+영어버젼 https://www.w3schools.com/ (bootstrap포함)
+
+14homework django 배운 후 
+
+# 20190122
+
+Make SQL.md
+
+homework & workshop
 
 # 20190121
 
