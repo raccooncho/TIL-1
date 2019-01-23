@@ -54,7 +54,6 @@ for movieCd in cl:
     f.close     
 
     image_URL = l[1]
-#     outpath = '\images'
-#     outfile = f'{movieCd}.jpg'
     urllib.request.urlretrieve(image_URL, f'images\{movieCd}.jpg')
-    
+
+     
