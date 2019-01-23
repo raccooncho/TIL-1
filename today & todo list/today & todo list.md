@@ -30,6 +30,12 @@ SQL 정리하기
 
 14homework django 배운 후 
 
+
+
+# 20190123
+
+Do homework & workshop
+
 # 20190122
 
 Make SQL.md

@@ -32,8 +32,6 @@ VALUES
 (2019, 'LG', 'Gram17');
 ```
 
-##### 
-
 
 
 
@@ -90,6 +88,16 @@ DROP TABLE <table_name>;
 ```sqlite
 ALTER TABLE <table_name> RENAME TO <new_table_name>;
 ```
+
+### Table 칼럼 추가
+
+```sqlite
+ALTER TABLE <table_name> ADD COLUMN 
+```
+
+
+
+
 
 ##### 09. SQLITE 명령어
 

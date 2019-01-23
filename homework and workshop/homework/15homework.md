@@ -1,30 +1,22 @@
-1. 우리가 사용하는 SQLite 는 RDBMS 에 속한다. RDBMS의 특징을 2가지만 작성하세요
-
-   > 파일보다 더 빠르게 데이터를 접근할 수 있으며 특정 패턴에 맞춰 데이터를 쉽게 추출할 수 있다
-
-2. True/False
-
-   > 2.1 RDBMS를 조작하가 위해서는 SQL 문을 사용한다 [T]
-
-   > 2.2 SQL에서 명령어는 대문자로 써야만 동작한다 [F]
-
-   > 2.3 일반적인 SQL 문에서는 명령어는 세미콜론(;)으로 끝낸다. [T]
-
-   > 2.4 SQLite에서 dot(.)으로 시작하는 명령어는 SQL이 아니다. [T]
-
-   > 2.5 한 개의 DB에는 한개의 테이블만 존재한다. [F]
-
-3. 다음 코드의 실행 결과로 나타나는 값을 작성하세요.
-
 ```sqlite
-.nullvalue "NULL"
-CREATE TABLE ssafy (
-	id INTEGER,
-    location TEXT,
-    class INTEGER
+CREATE TABLE  friends (
+	id INTEGER PRIMARY KEY,
+    name TEXT,
+    location TEXT
 );
-INSERT INTO ssafy (id, location) VALUES (1, 'JEJU');
-SELECT class FROM ssafy WHERE id=1;
+
+INSERT INTO friends (name, location)
+VALUES
+('Justin', 'Seoul'),
+('Simon', 'New York'),
+('Chang', 'Las Vegas'),
+('John', 'Sydney');
+
+ALTER TABLE friends ADD COLUMN married INTEGER;
+
+UPDATE friends SET married=1 WHERE id in (1, 4);
+UPDATE friends SET married=0 WHERE id in (2, 3);
+
+DELETE FROM friends WHERE married=0;
 ```
 
-> NULL
