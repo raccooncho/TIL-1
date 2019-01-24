@@ -19,3 +19,10 @@
 5.  develop 브랜치를 원격 중앙 저장소에 올린다
 
    `git push origin develop`
+
+
+
+
+
+
+
