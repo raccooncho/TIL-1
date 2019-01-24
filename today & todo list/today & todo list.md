@@ -32,9 +32,15 @@ SQL 정리하기
 
 
 
+# 20190124
+
+Create git flow
+
 # 20190123
 
 Do homework & workshop
+
+Practice weekly project
 
 # 20190122
 
