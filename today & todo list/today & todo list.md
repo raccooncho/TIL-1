@@ -30,6 +30,10 @@ SQL 정리하기
 
 14homework django 배운 후 
 
+# 20190128
+
+Delete LEE-SANG-TAEK
+
 
 
 # 20190124
