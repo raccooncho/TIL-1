@@ -137,17 +137,17 @@ def check_in_out_alarm(user_id, user_pwd, driver_location):
     # for test
     print(result)
     return result
-lunch_menu('srs99125@naver.com', '##qQ036578', 'C:/Users/이상택/chromedriver.exe')
 
-# check_in_out_alarm('srs99125@naver.com', '##qQ036578', 'C:/Users/이상택/chromedriver.exe')
+
+# check_in_out_alarm()
 # # 11:50 마다 점심 메뉴 알려주기
-# schedule.every().day.at("11:50").do(lunch_menu, 'srs99125@naver.com', '##qQ036578', 'C:/Users/이상택/chromedriver.exe')
+# schedule.every().day.at("11:50").do()
 # # 08:55 마다 출석 여부 알려주기
-# schedule.every().day.at("08:55").do(check_in_out_alarm, 'srs99125@naver.com', '##qQ036578', 'C:/Users/이상택/chromedriver.exe')
+# schedule.every().day.at("08:55").do()
 # # 18:01 마다 퇴실 여부 알려주기
-# schedule.every().day.at("18:01").do(check_in_out_alarm, 'srs99125@naver.com', '##qQ036578', 'C:/Users/이상택/chromedriver.exe')
+# schedule.every().day.at("18:01").do()
 
 # while 1:
 #     #스케줄 모듈을 계속해서 실행하기
 #     schedule.run_pending()
-#     time.sleep(1)   
+#     time.sleep(1)
