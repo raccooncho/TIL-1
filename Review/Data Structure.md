@@ -11,7 +11,7 @@
 * `a.swapcase()` : 대문자는  소문자로, 소문자는 대문자로 반환
 * `'x'.join(a)` : iterable한 요소 a (ex.string) 사이사이에 x를 넣어 문자열로 반환
 * `a.replace(old, new)` : 영역 안에 있는 old를 new로 바꿔서 반환
-* `a.strip(x)` : a에서 x를 제거하여 반환. 단 b를 지정하지 않을 시에는 **공백**을 제거
+* `a.strip(x)` : a에서 x를 제거하여 반환. 단 x를 지정하지 않을 시에는 **공백**을 제거
 
 
 
